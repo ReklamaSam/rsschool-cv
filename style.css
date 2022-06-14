@@ -55,8 +55,14 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 
 .nav-link {
-    
+    padding: 0 20px;
+    line-height: 50px;
 }
+
+html {
+    scroll-behavior: smooth; 
+  }
