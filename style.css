@@ -103,7 +103,7 @@ html {
   .main-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 30px;
   }
   
   .section {
@@ -115,3 +115,7 @@ html {
       width: 100%;
     }
   }
+
+  .imgsize {
+    width: 80%;
+   }
