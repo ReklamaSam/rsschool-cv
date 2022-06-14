@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Regular.ttf);
+    font-weight: 400;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Regular.ttf);
+    font-weight: 400;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5em;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+}
+
+p {
+    color: rgb(35, 5, 59);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    border: 0px solid red;
+}
+
+footer {
+    border: 0px solid red;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px; /*где-то здесь ошибка*/
+    line-height: 50px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+    color: brown;
+    transition: .3s;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+.nav-link:hover { 
+  background: brown; /* Цвет фона под ссылкой */ 
+  color: #ffffff; /* Цвет ссылки */ 
+  } 
+
+.tel-email:hover { 
+    background: none; /* Цвет фона под ссылкой */ 
+    color: brown; /* Цвет ссылки */ 
+    }
+
+.tel-email {
+    padding: 0 5px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+    color: rgb(51, 17, 177);
+    transition: .3s;
+  }
+
+  .text-bold {
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+  .imgsize {
+    width: 80%;
+   }
+
+   .footer-table {
+    width: 100%;
+   }
