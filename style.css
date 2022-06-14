@@ -1,9 +1,9 @@
 body {
-    background-color: green;
+    background-color: rgb(197, 198, 207);
 }
 h1 {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 p {
-    color: black;
+    color: rgb(35, 5, 59);
 }
