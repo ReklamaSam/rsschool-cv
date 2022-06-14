@@ -1,7 +1,7 @@
 # CV
 *****
 # Vladimir Mingalev
-![foto](/vmfoto.jpg)  
+![foto](/accets/img/vmfoto.jpg)  
 ## Personal information
 City: **Samara**  
 Date of birth: *1983-11-05*  
