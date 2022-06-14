@@ -59,10 +59,21 @@ footer {
 }
 
 .nav-link {
-    padding: 0 20px;
+    padding: 0 20px; /*где-то здесь ошибка*/
     line-height: 50px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    src: url(/accets/fonts/SourceSansPro-Bold.ttf);
+    font-weight: 700;
+    color: brown;
+    transition: .3s;
 }
 
 html {
     scroll-behavior: smooth; 
   }
+
+  .nav-link:hover { 
+    background: brown; /* Цвет фона под ссылкой */ 
+    color: #ffffff; /* Цвет ссылки */ 
+  } 
